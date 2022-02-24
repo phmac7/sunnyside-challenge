@@ -1,0 +1,22 @@
+*.sketch
+*.fig
+*.xd
+.prettierignore
+
+#compiled css
+css/
+
+
+node_modules/
+
+# ignore all logs
+*.log
+
+.DS_Store
+Thumbs.db
+
+
+#ignore while challenge is incomplete
+README.md
+README-template.md
+style-guide.md
