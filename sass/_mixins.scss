@@ -11,3 +11,12 @@
     opacity: .4;
     // z-index:;
 }
+
+@mixin button-nav {
+    content: "";
+    position: absolute;
+    width: 2rem;
+    height: 2rem;
+    background-color: $white;
+    border-radius:1000px
+}

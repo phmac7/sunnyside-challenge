@@ -15,6 +15,11 @@ body {
         text-align: center;
         text-transform: uppercase;
         letter-spacing: 1rem;
+        @media only screen and (max-width: $mobile) {
+            font-size: 4.5rem;
+            padding: 3rem 0 0;
+            font-weight: 900;
+        }
 
     }
 
@@ -51,11 +56,15 @@ body {
     font-family: $titles;
     font-weight: 900;
     color: $very-dark-desaturated-blue;
+    @media only screen and (max-width: $mobile) {
+        font-size: 4rem;
+    }
 }
 
 .h3-text {
     font-size: 3rem;
     font-family: $titles;
+    font-weight: 900;
 }
 
 .home {

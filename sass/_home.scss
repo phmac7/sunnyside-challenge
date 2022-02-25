@@ -1,11 +1,20 @@
 .home {
     display: grid;
     grid-template-columns: 50% 50%;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1.2fr 1fr 1.2fr 1.6fr 1.6fr;
+
+    @media only screen and (max-width: $mobile){
+        grid-template-columns: 100%;
+    }
 
     &__box-1 {
         grid-row: 1 / 2;
         grid-column: 2 / 3;
+
+        @media only screen and (max-width: $mobile){
+            grid-row: 1 / 1;
+            grid-column: 1 / 1;
+        }
 
     }
 
@@ -14,6 +23,19 @@
         display: block;
         height: 100%;
         width: 100%;
+        @media only screen and (max-width: $mobile) {
+            display: none;
+        }
+
+        &-alt1, &-alt2 {
+            display:none;
+            @media only screen and (max-width: $mobile) {
+                display: block;
+                height: 100%;
+                width: 100%;
+            }
+            
+        }
     }
 
     &__box-2, &__box-4 {
@@ -27,6 +49,10 @@
         flex-direction: column;
         padding: 20% 20% 20% 18%;
         justify-content: space-between;
+        @media only screen and (max-width: $mobile) {
+            text-align: center;
+            padding: 15% 16% 15%;
+        }
         
     }
 
@@ -34,12 +60,23 @@
         background-image: url('../images/desktop/image-graphic-design.jpg');
         display: flex;
         flex: 1;
+
+        @media only screen and (max-width: $mobile) {
+            background-image: url('../images/mobile/image-graphic-design.jpg');
+            background-size: cover;
+        
+        }
     }
 
     &__box-6 {
         background-image: url('../images/desktop/image-photography.jpg');
         display: flex;
         flex: 1;
+
+        @media only screen and (max-width: $mobile) {
+            background-image: url('../images/mobile/image-photography.jpg');
+            background-size: cover;
+        }
     }
 
     &__box--text-alt {
@@ -47,6 +84,17 @@
         flex-direction: column;
         justify-content: space-between;
         padding: 55% 23% 8%;
+
+        @media only screen and (max-width: $mobile) {
+            justify-content: flex-end;
+            padding: 0 10% 10%;
+        }
+    }
+}
+
+.h3-text {
+    @media only screen and (max-width: $mobile) {
+        margin-bottom: 2.4rem;
     }
 }
 
@@ -54,6 +102,9 @@
 .learn-more:visited {
     align-self: flex-start;
     position: relative;
+    @media only screen and (max-width: $mobile) {
+       align-self: center;
+    }
 
     &::after {
         @include learn-more;

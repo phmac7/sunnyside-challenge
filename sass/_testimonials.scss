@@ -1,9 +1,13 @@
 .testimonials {
     background-color: $light-grey;
-    height: 75vh;
+    height: 80vh;
     display: flex;
     flex-direction: column;
     flex: 1;
+
+    @media only screen and (max-width: $mobile) {
+        width: 100%;
+    }
 }
 
 .testimonials__title {
@@ -18,6 +22,9 @@
     flex: 1;
     justify-content: space-between;
     margin-bottom: 5rem;
+    @media only screen and (max-width: $mobile) {
+        flex-direction: column;
+    }
 }
 
 .testimonials__box {
@@ -38,9 +45,15 @@
     &-author {
         margin-bottom: 1rem;
         display:block;
+        @media only screen and (max-width: $mobile) {
+            margin: 0;
+        }
     }
 
     &-author-sub {
         display:block;
+        @media only screen and (max-width: $mobile) {
+            margin-bottom: 1rem;
+        }
     }
 }

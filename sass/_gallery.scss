@@ -2,8 +2,26 @@
     display:grid;
     grid-template-columns: repeat(4, 1fr);
 
+    @media only screen and (max-width: $mobile) {
+        grid-template-columns: 1fr 1fr;
+        width: 100%;
+    }
+
     &__img {
         display:block;
         width: 100%;
+        @media only screen and (max-width: $mobile) {
+            display: none;
+        }
+
+        &-alt {
+            display: none;
+            @media only screen and (max-width: $mobile) {
+                display: block;
+                width: 100%;
+                background-position: center;
+            }
+        }
+
     }
 }
