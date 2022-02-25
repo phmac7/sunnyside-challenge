@@ -34,7 +34,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/landing-page-created-with-sass-and-js-YLXIFwgAC)
 - Live Site URL: [Add live site URL here](https://phmac7.github.io/sunnyside-challenge/)
 
 ## My process
