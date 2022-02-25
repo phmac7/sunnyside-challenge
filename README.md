@@ -28,7 +28,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](/images/desktop-print-done.png)
 
 
 ### Links
@@ -72,7 +72,7 @@ links.forEach(links => {
 
 ### Useful resources
 
-- [Filter svg image](https://codepen.io/sosuke/pen/Pjoqqp) - This tool helped me changing colors of a svg file inside a 'img' tag
+- [Filter svg image](https://codepen.io/sosuke/pen/Pjoqqp) - This tool helped me changing colors of a svg file inside an 'img' tag
 
 ## Author
 
