@@ -4,7 +4,10 @@
 .prettierignore
 
 #compiled css
-css/
+css/style.css
+css/style.css.map
+css/style.min.css.map
+css/style.prefix.css
 
 
 node_modules/
@@ -21,3 +24,4 @@ README-mine.md
 style-guide.md
 text.txt
 js-comments.txt
+
