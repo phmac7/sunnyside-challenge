@@ -105,12 +105,14 @@
 .learn-more:visited {
     align-self: flex-start;
     position: relative;
+
     @media only screen and (max-width: $mobile) {
        align-self: center;
     }
 
     &::after {
         @include learn-more;
+        transition: all .2s;
     }
 
     &:hover::after {

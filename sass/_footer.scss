@@ -28,6 +28,7 @@
     list-style: none;
     display: flex;
     margin: 3rem auto 4rem;
+    
 
 
     &--item {
@@ -44,6 +45,7 @@
     display:flex;
     list-style: none;
     margin: 2rem auto;
+    
 
     &-item {
         &:not(:first-of-type), &:not(:last-of-type) {
@@ -58,6 +60,7 @@
 .svgIcon {
     position:relative;
     z-index: -1;
+
 }
 
 .attribution {

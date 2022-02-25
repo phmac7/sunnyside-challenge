@@ -142,6 +142,7 @@ body {
     &--link, &--link:visited {
         text-decoration: none;
         color:inherit;
+        transition: all .5s;
     }
     &--link:hover, &--link:active {
         color: $white;
