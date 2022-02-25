@@ -60,6 +60,7 @@
     &__box-5 {
         background-image: url('../images/desktop/image-graphic-design.jpg');
         display: flex;
+        background-position-x: center;
         flex: 1;
 
         @media only screen and (max-width: $mobile) {
@@ -73,6 +74,7 @@
         background-image: url('../images/desktop/image-photography.jpg');
         display: flex;
         flex: 1;
+        background-position-x: center;
 
         @media only screen and (max-width: $mobile) {
             background-image: url('../images/mobile/image-photography.jpg');
