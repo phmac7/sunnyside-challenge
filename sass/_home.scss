@@ -1,10 +1,11 @@
 .home {
     display: grid;
     grid-template-columns: 50% 50%;
-    grid-template-rows: 1fr 1.2fr 1fr 1.2fr 1.6fr 1.6fr;
+    
 
     @media only screen and (max-width: $mobile){
         grid-template-columns: 100%;
+        grid-template-rows: 1fr 1.2fr 1fr 1.2fr 1.6fr 1.6fr;
     }
 
     &__box-1 {
