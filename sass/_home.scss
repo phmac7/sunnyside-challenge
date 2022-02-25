@@ -1,0 +1,78 @@
+.home {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 1fr 1fr 1fr;
+
+    &__box-1 {
+        grid-row: 1 / 2;
+        grid-column: 2 / 3;
+
+    }
+
+
+    &__box--img {
+        display: block;
+        height: 100%;
+        width: 100%;
+    }
+
+    &__box-2, &__box-4 {
+        display: flex;
+        flex: 1;
+        background-color:  $light-grey;
+    }
+    
+    &__box--text {
+        display: flex;
+        flex-direction: column;
+        padding: 20% 20% 20% 18%;
+        justify-content: space-between;
+        
+    }
+
+    &__box-5 {
+        background-image: url('../images/desktop/image-graphic-design.jpg');
+        display: flex;
+        flex: 1;
+    }
+
+    &__box-6 {
+        background-image: url('../images/desktop/image-photography.jpg');
+        display: flex;
+        flex: 1;
+    }
+
+    &__box--text-alt {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 55% 23% 8%;
+    }
+}
+
+.learn-more, 
+.learn-more:visited {
+    align-self: flex-start;
+    position: relative;
+
+    &::after {
+        @include learn-more;
+    }
+
+    &:hover::after {
+        opacity: 1;
+    }
+
+}
+
+.learn-more-1, .learn-more-1:visited {
+    &::after {
+        background-color: $yellow;
+    }
+}
+.learn-more-2, .learn-more-2:visited {
+    &::after {
+        background-color: $soft-red;
+    }
+}
+

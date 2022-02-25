@@ -1,0 +1,161 @@
+body {
+    font-size: 1.8rem; // = 18px
+    font-family: $default;
+    font-weight: 600;
+    
+}
+
+
+//HEADER /////////////////
+.header{
+    &__title {
+        font-family: $titles;
+        font-size: 6.3rem;
+        color: $white;
+        text-align: center;
+        text-transform: uppercase;
+        letter-spacing: 1rem;
+
+    }
+
+    &__nav-bar {
+
+        &--list {
+            font-size: 1.9rem;
+
+            &-item {
+                color: $white;
+            }
+
+            &-button, 
+            &-button:visited {
+                text-decoration: none;
+                color: inherit;
+            }
+
+            &-button:active, &-button:hover {
+                color: $white;
+            }
+        }
+    }
+}
+
+.contact__button {
+    font-family: 'Fraunces', sans-serif;
+    text-transform: uppercase;
+}
+
+// HOME CONTENT //////////////
+.h2-text {
+    font-size: 4.2rem;
+    font-family: $titles;
+    font-weight: 900;
+    color: $very-dark-desaturated-blue;
+}
+
+.h3-text {
+    font-size: 3rem;
+    font-family: $titles;
+}
+
+.home {
+    
+    &__box--text-alt {
+        text-align: center;
+    }
+
+    &__paragraph {
+        line-height: 2.9rem;
+        
+        &-1 {
+            color: $dark-grayish-blue;
+        }
+    }
+}
+
+.graphic-text {
+    color: $dark-desaturated-cyan !important;
+}
+
+.photography-text {
+    color: $dark-blue !important;
+}
+
+.learn-more, 
+.learn-more:visited {
+    text-decoration: none;
+    font-size: 1.8rem;
+    font-family: $titles;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: $very-dark-desaturated-blue;
+    z-index: 10;
+}
+
+//TESTIMONIALS 
+
+.testimonials__title {
+    font-size: 2rem;
+    font-family: $titles;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: $dark-grayish-blue;
+    letter-spacing: .7rem;
+}
+
+.testimonials__box {
+
+    &-paragraph {
+        color: $very-dark-grayish-blue;
+    }
+
+    &-author {
+        font-family: $titles;
+        font-weight: 900;
+        color: $very-dark-desaturated-blue;
+    }
+
+    &-author-sub {
+        color: $grayish-blue;
+    }
+
+}
+
+//FOOTER CONTENT
+
+.footer__list {
+
+    &--item {
+        color: $dark-desaturated-cyan;
+
+    }
+
+    &--link, &--link:visited {
+        text-decoration: none;
+        color:inherit;
+    }
+    &--link:hover, &--link:active {
+        color: $white;
+    }
+}
+
+.attribution {
+    font-size: 1.1rem; 
+
+    &__name,
+    &__name:visited,
+    &__frontend,
+    &__frontend:visited {
+        text-decoration: none;
+        color: hsl(228, 45%, 44%); 
+    }
+    &__name:active,
+    &__name:hover,
+    &__frontend:active,
+    &__frontend:hover {
+        color: $white;
+    }
+
+
+}
+

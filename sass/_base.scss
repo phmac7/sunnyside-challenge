@@ -1,0 +1,44 @@
+// Colors
+// Primary
+
+$soft-red: #fe7867;
+$yellow: #fad400;
+$dark-desaturated-cyan /*(graphic design text)*/: #25564b;
+$dark-blue /*(photography text)*/: #19536b;
+$dark-moderate-cyan /*(footer)*/: #61bdaa; /* changed the default color */
+
+// Neutral
+
+$very-dark-desaturated-blue: #23303e;
+$very-dark-grayish-blue: #5a636c;
+$dark-grayish-blue: #818498;
+$grayish-blue: hsl(206, 4%, 67%);
+$light-grey: #f0f0f0;
+$white: #ffffff;
+
+
+//FONTS
+
+$titles: 'Fraunces', sans-serif;
+$default: 'Barlow', sans-serif;
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+*, *::after,*::before{
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%; //1rem = 10px
+}
+
+body {
+    width: 144rem;
+    margin: 0 auto;
+
+}
+

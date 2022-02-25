@@ -1,0 +1,59 @@
+.footer {
+    background-color: $dark-moderate-cyan;
+    padding: 6rem 0;
+
+    &__logo {
+        margin: 3rem auto 0;
+        filter: invert(27%) sepia(68%) saturate(302%) hue-rotate(116deg) brightness(91%) contrast(95%);
+        width: 15%;
+    }
+
+}
+
+
+.footer__container {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+.footer__list {
+    list-style: none;
+    display: flex;
+    margin: 3rem auto 4rem;
+
+
+    &--item {
+        &:not(:first-of-type), &:not(:last-of-type) {
+            margin: 0 3.5rem;
+        }
+
+    }
+
+    
+}
+
+.footer__icons {
+    display:flex;
+    list-style: none;
+    margin: 2rem auto;
+
+    &-item {
+        &:not(:first-of-type), &:not(:last-of-type) {
+            margin: 0 1.5rem;
+        }
+        position: relative;
+        z-index: 1 ;
+    }
+
+}
+
+.svgIcon {
+    position:relative;
+    z-index: -1;
+}
+
+.attribution {
+    padding: 2rem;
+    text-align: center; 
+}

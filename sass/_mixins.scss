@@ -1,0 +1,13 @@
+@mixin learn-more {
+    content: "";
+    position:absolute;
+    width: 110%;
+    height: 35%;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    transform: translateX(-.6rem);
+    border-radius: 100px;
+    opacity: .4;
+    // z-index:;
+}

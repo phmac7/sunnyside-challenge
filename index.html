@@ -1,68 +1,182 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- displays site properly based on user's device -->
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:wght@700;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Frontend Mentor | Sunnyside agency landing page</title>
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Sunnyside agency landing page</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
+
 <body>
-  About
-  Services
-  Projects
-  Contact
+    <header class="header">
+        <nav class="header__nav-bar">
+            <img src="images/logo.svg" class="header__logo">
 
-  We are creatives
+            <ul class=" header__nav-bar--list">
+                <li class=" header__nav-bar--list-item"> <a class="header__nav-bar--list-link" href="#"> About </a>
+                </li>
+                <li class=" header__nav-bar--list-item"> <a class="header__nav-bar--list-link" href="#"> Services </a>
+                </li>
+                <li class=" header__nav-bar--list-item"> <a class="header__nav-bar--list-link" href="#"> Projects </a>
+                </li>
+                <li class="contact__button"> <a class="header__nav-bar--list-button" href="#">
+                        Contact </a> </li>
+            </ul>
+        </nav>
+        <h1 class="header__title">We are creatives</h1>
+        <div class="header__arrowdown">
+            <object data="images/icon-arrow-down.svg" type="image/svg+xml"> <img src="images/icon-arrow-down.svg">
+            </object>
+        </div>
+    </header>
+    <main class="main">
+        <section class="home">
+            <div class="home__box-1">
+                <img class="home__box--img" src="images/desktop/image-transform.jpg" alt="Egg on a yellow background">
+            </div>
+            <div class="home__box-2">
+                <div class="home__box--text">
+                    <h2 class="h2-text">Transform your brand</h2>
+                    <p class="home__paragraph home__paragraph-1">
+                        We are a full-service creative agency specializing in helping brands grow fast.
+                        Engage your clients through compelling visuals that do most of the marketing for you.
+                    </p>
+                    <a href="#" class="learn-more learn-more-1"> Learn more </a>
+                </div>
+            </div>
+            <div class="home__box-3">
+                <img src="images/desktop/image-stand-out.jpg" alt="a cup on a pink background" class="home__box--img">
+            </div>
+            <div class="home__box-4">
+                <div class="home__box--text">
+                    <h2 class="h2-text">Stand out to the right audience</h2>
+                    <p class="home__paragraph home__paragraph-1">
+                        Using a collaborative formula of designers, researchers, photographers, videographers, and
+                        copywriters, we’ll build and extend your brand in digital places.
 
-  Transform your brand
+                    </p>
+                    <a href="#" class="learn-more learn-more-2"> Learn more </a>
+                </div>
+            </div>
+            <div class="home__box-5">
+                <div class="home__box--text-alt graphic-text">
+                    <h3 class="h3-text">Graphic Design</h3>
+                    <p class="home__paragraph ">
+                        Great design makes you memorable. We deliver artwork that underscores your brand message and
+                        captures potential clients’ attention.
+                    </p>
+                </div>
+            </div>
+            <div class="home__box-6">
+                <div class="home__box--text-alt photography-text">
+                    <h3 class="h3-text">Photography</h3>
+                    <p class="home__paragraph">
+                        Increase your credibility by getting the most stunning, high-quality photos that improve your
+                        business image.
 
-  We are a full-service creative agency specializing in helping brands grow fast. 
-  Engage your clients through compelling visuals that do most of the marketing for you.
+                    </p>
+                </div>
+            </div>
+        </section>
 
-  Learn more
+        <section class="testimonials">
+            <h4 class="testimonials__title">
+                Client Testimonials
+            </h4>
+            <div class="testimonials__container">
+                <article class="testimonials__box">
+                    <img src="images/image-emily.jpg" alt="" class="testimonials__box-img">
+                    <p class="testimonials__box-paragraph">
+                        We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines
+                        were always hit.
+                    </p>
+                    <div>
+                        <span class="testimonials__box-author">Emily R.</span>
+                        <span class="testimonials__box-author-sub">Marketing Director</span>
+                    </div>
 
-  Stand out to the right audience
+                </article>
+                <article class="testimonials__box">
+                    <img src="images/image-thomas.jpg" alt="" class="testimonials__box-img">
+                    <p class="testimonials__box-paragraph">
+                        Sunnyside’s enthusiasm coupled with their keen interest in our brand’s success made it a
+                        satisfying and enjoyable experience.
+                    </p>
+                    <div>
+                        <span class="testimonials__box-author">Thomas S.</span>
+                        <span class="testimonials__box-author-sub">Chief Operating Officer</span>
+                    </div>
+                </article>
+                <article class="testimonials__box">
+                    <img src="images/image-jennie.jpg" alt="" class="testimonials__box-img">
+                    <p class="testimonials__box-paragraph">
+                        Incredible end result! Our sales increased over 400% when we worked with Sunnyside. Highly
+                        recommended!
+                    </p>
+                    <div>
+                        <span class="testimonials__box-author">Jennie F.</span>
+                        <span class="testimonials__box-author-sub">Business Owner</span>
+                    </div>
+                </article>
+            </div>
 
-  Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters, we’ll build and extend your brand in digital places. 
+        </section>
 
-  Learn more
+        <section class="gallery">
+            <img src="images/desktop/image-gallery-milkbottles.jpg" alt="3 milk bottles" class="gallery__img">
+            <img src="images/desktop/image-gallery-orange.jpg" alt="an orange on a plate" class="gallery__img">
+            <img src="images/desktop/image-gallery-cone.jpg" alt="icecream cone" class="gallery__img">
+            <img src="images/desktop/image-gallery-sugarcubes.jpg" alt="some stacked sugar cubes" class="gallery__img">
+        </section>
+        <footer class="footer">
+            <div class="footer__container">
+                <img src="images/logo.svg" class="footer__logo">
+                <ul class="footer__list">
+                    <li class="footer__list--item"><a href="#" class="footer__list--link">About</a></li>
+                    <li class="footer__list--item"><a href="#" class="footer__list--link">Services</a></li>
+                    <li class="footer__list--item"><a href="#" class="footer__list--link">Projects</a></li>
+                </ul>
+                <ul class="footer__icons">
+                    <li class="footer__icons-item">
+                        <a class="footer__icons-link" href="#">
+                            <object class="svgIcon" type="image/svg+xml" data="images/icon-facebook.svg"></object>
+                        </a>
+                    </li>
+                    <li class="footer__icons-item">
+                        <a class="footer__icons-link" href="#">
+                            <object class="svgIcon" type="image/svg+xml" data="images/icon-instagram.svg">
 
-  Graphic design
-  Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients’ attention.
-
-  Photography
-  Increase your credibility by getting the most stunning, high-quality photos that improve your business image.
-
-  Client testimonials
-
-  We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were always hit.
-  Emily R.
-  Marketing Director
-
-  Sunnyside’s enthusiasm coupled with their keen interest in our brand’s success made it a satisfying and enjoyable experience.
-  Thomas S.
-  Chief Operating Officer
-
-  Incredible end result! Our sales increased over 400% when we worked with Sunnyside. Highly recommended!
-  Jennie F.
-  Business Owner
-
-  About
-  Services
-  Projects
-  Contact
-
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+                            </object>
+                        </a>
+                    </li>
+                    <li class="footer__icons-item">
+                        <a class="footer__icons-link" href="#">
+                            <object class="svgIcon" type="image/svg+xml" data="images/icon-twitter.svg"></object>
+                        </a>
+                    </li>
+                    <li class="footer__icons-item">
+                        <a class="footer__icons-link" href="#">
+                            <object class="svgIcon" type="image/svg+xml" data="images/icon-pinterest.svg"></object>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="attribution">
+                Challenge by <a class="attribution__frontend" href="https://www.frontendmentor.io?ref=challenge"
+                    target="_blank">Frontend Mentor</a>.
+                Coded by <a class="attribution__name" href="#">Pedro Machado</a>.
+            </div>
+        </footer>
+    </main>
+    <script src="/js/app.js"></script>
 </body>
+
 </html>

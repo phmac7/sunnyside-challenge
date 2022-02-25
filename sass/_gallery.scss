@@ -1,0 +1,9 @@
+.gallery {
+    display:grid;
+    grid-template-columns: repeat(4, 1fr);
+
+    &__img {
+        display:block;
+        width: 100%;
+    }
+}
