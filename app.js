@@ -9,14 +9,13 @@ links.forEach(links => {
     })
 })
 
+
 links.forEach(links => {
     links.addEventListener('mouseout', () => {
         let path = links.querySelector('.svgIcon').contentDocument.querySelector('svg').querySelector('path');
         path.setAttribute('fill', '#2C7566')
     })
 })
-
-
 
 
 const button = document.querySelector('.nav__toggle')

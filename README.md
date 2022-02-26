@@ -35,7 +35,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: https://www.frontendmentor.io/solutions/landing-page-created-with-sass-and-js-YLXIFwgAC
-- Live Site URL: https://phmac7.github.io/sunnyside-challenge
+- Live Site URL: https://phmac7-sunnyside-challenge.netlify.app/
 
 ## My process
 
